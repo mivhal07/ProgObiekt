@@ -1,4 +1,4 @@
-package uwm.studia.programobiekt.cwiczenia16_10_2022_2.PD_z_cwicz;
+package uwm.studia.programobiekt.cwiczenia16_10_2022.PD_z_cwicz2;
 
 public class Main4_13 {
 
