@@ -38,18 +38,6 @@ public class Main6_4 {
                     System.out.println("Wpisz wartość dla zaktualizowanego stanu licznika");
                     int i1 = scanner.nextInt();
                     stanLicznika.setBierzstanLicznika(i1);
-
-                    Path path1 = Paths.get("stany_licznika_od_początku.txt");
-                    try {
-                        FileWriter myWriter = new FileWriter("stany_licznika_od_początku.txt");
-                        myWriter.write(i1);
-                        myWriter.close();
-                    } catch (IOException ex) {
-                        System.out.println("Nie można zapisać pliku.");
-                    }
-                default:
-                    System.out.println("Dziękuje, do widzenia :)");
-                    break;
             }
         }
 
