@@ -6,17 +6,12 @@ import lombok.Setter;
 @Setter
 @Getter
 public class Car {
+    static Object car = CarCreate();
     private double pojemnoscSilnika;
     private String marka;
-    private static int iloscKol;
+    private int iloscKol = 4;
 
-    private static void main(String[] args) {
-        //tak
-        Car car = new Car();
-        new Car(1987,"BMW");
-    }
-
-    private Car() {
+    public Car() {
     }
 
     private Car(double pojemnoscSilnika, String marka) {
@@ -24,14 +19,17 @@ public class Car {
         this.marka = marka;
     }
 
-    public static Object CarCreate(){
+    public static Object CarCreate() {
         return new Car();
     }
 
-    static Object car = CarCreate();
-
-    public Car(int iloscKol) {
-        this.iloscKol = 4;
+    public static void main(String[] args) {
+        Car car = new Car();
+        new Car(1987, "BMW");
+        System.out.println(car.getIloscKol());
     }
 
+    public int getIloscKol() {
+        return iloscKol;
+    }
 }
