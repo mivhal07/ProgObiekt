@@ -1,0 +1,1 @@
+Konto{login=49136718, pin=4491, imieWlasciciela='Jan', nazwiskoWlasciciela='Nowak', saldo=119, nrKonta=297381994, dataUtworzenia=2022-05-10, czasOperacji=2022-12-30T10:20:14.363538500}

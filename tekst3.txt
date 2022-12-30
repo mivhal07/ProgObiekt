@@ -1,0 +1,1 @@
+Konto{login=77194863, pin=1196, imieWlasciciela='Adam', nazwiskoWlasciciela='Chrobrewicz', saldo=493481, nrKonta=994613849, dataUtworzenia=2022-01-27, czasOperacji=2022-12-30T10:20:14.363538500}
