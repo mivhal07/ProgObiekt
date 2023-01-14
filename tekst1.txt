@@ -1,0 +1,1 @@
+Konto{login=49176183, pin=5917, imieWlasciciela='Michał', nazwiskoWlasciciela='Dobrzański', saldo=1943, nrKonta=381823249, dataUtworzenia=2022-12-30, czasOperacji=2022-12-30T10:20:14.355544}

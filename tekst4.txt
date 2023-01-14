@@ -1,0 +1,1 @@
+Konto{login=59184631, pin=4746, imieWlasciciela='Grzegorz', nazwiskoWlasciciela='Pstryk', saldo=4918, nrKonta=471694557, dataUtworzenia=2022-11-09, czasOperacji=2022-12-30T10:20:14.363538500}
